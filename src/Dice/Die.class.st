@@ -1,3 +1,11 @@
+"
+I represent a sided die. I can represent multiple sides beyond my default of 6. I typically am grouped up in a DieHandle and then rolled to create an aggregate score.
+
+Public API
+	- withFaces: takes anInteger and returns a sided die of that integer count
+	- roll takes a die and randomly returns an integer between 1 and the number of sides
+
+"
 Class {
 	#name : #Die,
 	#superclass : #Object,
