@@ -39,6 +39,11 @@ DieHandleTest >> testSimpleHandle [
 ]
 
 { #category : #tests }
+DieHandleTest >> testSimpleHandle4 [
+	self assert: 2 D4 diceNumber equals: 2
+]
+
+{ #category : #tests }
 DieHandleTest >> testSumOfHandles [
 	| hd1 hd2 hd3 |
 	hd1 := DieHandle new
